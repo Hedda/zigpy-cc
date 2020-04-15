@@ -82,7 +82,11 @@ The [Zigbee2mqtt](https://www.zigbee2mqtt.io/) project has intructions for sever
 
 - To configure __usb__ port path for your TI CC serial device, just specify the TTY (serial com) port, example : `/dev/ttyACM0`
     - Alternatively you could try to set just port to `auto` to enable automatic usb port discovery (not garanteed to work).
-- Texas Instruments default recommend Baud rate of CC253x serial device is 115200 (this could be different for other TI CC chips).
+    
+Developers should note that that Texas Instruments recommends different baud rates for UART interface of different TI CC chips.
+- CC2530 and CC2531 default recommended UART baud rate is 115200 baud.
+- CC2538 also supports flexible UART baud rate generation but only up to a maximum of 460800 baud.
+- CC13x2 and CC26x2 supports flexible UART baud rate generation up to a maximum of 1.5 Mbps.
 
 # Releases via PyPI
 
