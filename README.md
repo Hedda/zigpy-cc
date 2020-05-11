@@ -48,7 +48,7 @@ Texas Instruments (TI) has quite a few different wireless MCU chips and they are
 - CC1352P = CC1352R with a built in RF PA.
 
 ### Auxiliary TI chips
-- CC2591 and CC2592 = 2.4 GHz range extenders. These are not wireless MCUs, just auxillary RF PA and LNA in the same package.
+- CC2591 and CC2592 = 2.4 GHz range extenders. These are not wireless MCUs, just auxillary PA (Power Amplifier) and LNA (Low Noise Amplifier) in the same package to improve RF (Radio Frequency) range of any 2.4 GHz radio chip.
   
 ## Firmware requirement
 Firmware requirement is that they support Texas Instruments "Z-Stack Monitor and Test" APIs using an UART interface (serial communcation protocol), which they should do if they are flashed with custom Z-Stack "coordinator" firmware for Zigbee 1.2 or Zigbee 3.0 from the Zigbee2mqtt project.
