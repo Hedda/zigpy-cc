@@ -35,6 +35,7 @@ Texas Instruments (TI) has quite a few different wireless MCU chips and they are
 ### Older generation TI chips
 - CC2530 = 2.4GHz Zigbee and IEEE 802.15.4 wireless MCU. 8051 core, has very little RAM. Needs expensive compiler license for official TI stack.
 - CC2531 = CC2530 with built-in USB. Used in the cheap "Zigbee sticks" sold everywhere.
+- CC2538 = CC2538 2.4GHz Zigbee and IEEE 802.15.4 wireless MCU. Powerful ARM Cortex-M3 CPU core, up to 32KB of RAM, and and up to 512KB on-chip flash.
 
 ### Newer generation TI chips
 
